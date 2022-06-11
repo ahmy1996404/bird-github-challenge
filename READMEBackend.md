@@ -19,20 +19,20 @@ composer install
 To run the server, execute:
 
 ```bash
-php artisan serve;
+php artisan serve
 ```
 
  
 ## API Referance
 ### Getting Start
-- Base URL : At present this app run locally . The app is hosted at the local , `http://127.0.0.1:8000`, 
+- Base URL : At present this app run locally . The app is hosted at the local , `http://127.0.0.1:8000`
 ### Endpoint 
-#### GET /user-github-points/{:username}
+#### GET api//user-github-points/{:username}
 - General:
-    - Returns a list of Movies ( include the actors of this movie , movie id , release_date and title) , total_movies , success value.
+    - End point that accepts a Github username, and returns that user’s “Score” 
 - Require
      
-        - auth header contain bearer token has permission 'get:movies'
+        - username
 - Sample:
     - `http://127.0.0.1:8000/api/user-github-points/ahmy1996404`
 ```

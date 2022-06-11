@@ -4,11 +4,13 @@
 
 The code challenge is split into two parts the first part is a simple backend api endpoint using laravel, showing you can leverage Laravel Collections to create an elegant solution to the following problem.
 Create a controller method that accepts a Github username, and returns that user’s “Score” based on the following rules.
-	1. PushEvent = 10 points
-	2. PullRequestEvent = 5 points
-	3. IssueCommentEvent = 4 points
-	4. Any other event = 1 point
+1. PushEvent = 10 points
+2. PullRequestEvent = 5 points
+3. IssueCommentEvent = 4 points
+4. Any other event = 1 point
 And return: 
+```bash
+
 {
 	data: [
 	{
@@ -21,7 +23,7 @@ And return:
 	],
 	score: 10,
 }
-
+```
  
 ## About the Stack
 

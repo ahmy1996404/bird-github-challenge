@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+table {
+    text-align: center;
+}
+thead {
+    background-color: #6f6f6f;
+    color: white;
+    line-height: 7vh;
+}
+td {
+    line-height: 7vh;
+    color: #6f6f6f;
+}
+.date{
+    color: #859f76;
+}
+.total-score
+{
+    background-color: #6f6f6f !important;
+    color: white;
+    line-height: 7vh;
+
+}
+.last-td{
+        border-bottom-width: 0px !important;
+}
